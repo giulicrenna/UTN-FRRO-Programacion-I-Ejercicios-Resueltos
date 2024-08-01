@@ -26,9 +26,7 @@ $$
 **Descripción:** Escribe un programa en C que lea cinco números del usuario, calcule su suma y promedio.
 
 $$
-
 resultado = \frac{x_1 + x_2 + x_3 + x_4 + x_5}{5}
-
 $$
 
 ### Ejercicio 5: Distancia entre dos puntos
