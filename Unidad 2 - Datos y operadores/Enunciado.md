@@ -30,9 +30,19 @@ resultado = \frac{x_1 + x_2 + x_3 + x_4 + x_5}{5}
 $$
 
 ### Ejercicio 5: Distancia entre dos puntos
-**Descripción:** Escribe un programa en C que calcule la distancia entre dos puntos $(x1, y1)$ y $(x2, y2)$.
+**Descripción:** Escribe un programa en C que calcule la distancia entre dos puntos $(x_1, y_1)$ y $(x_2, y_2)$.
 
 Se calcula mediante la siguiente fórmula:
 $$
     d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
+
+### Ejercicio 6: Calcular triángulo
+**Descripción:** Solicitar ingresar dos lados de un triángulo rectángulo y calcular, la hipotenusa, el
+perímetro, la superficie. Imprima los resultados de las operaciones solicitadas.
+
+$$
+hipotenusa = \sqrt{lado_1^2 + lado_2^2} \\
+perimetro = lado_1 + lado_2 + hipotenusa \\
+superficie = (lado_1 * lado_2) / 2
 $$

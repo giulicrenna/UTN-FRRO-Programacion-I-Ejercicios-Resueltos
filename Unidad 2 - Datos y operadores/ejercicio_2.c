@@ -1,13 +1,18 @@
 #include <stdio.h>
+
 #define PI 3.14159265358979323846
 
-int main() {
+int main(){
     float radio, area, circunferencia;
-    printf("Ingrese el radio del círculo: ");
+    
+    printf("Ingrese el radio del circulo: ");
     scanf("%f", &radio);
+
     area = PI * radio * radio;
     circunferencia = 2 * PI * radio;
-    printf("El área del círculo es: %.2f\n", area);
-    printf("La circunferencia del círculo es: %.2f\n", circunferencia);
+
+    printf("El area del circulo es: %f\n", area);
+    printf("La circunferencia del circulo es: %f", circunferencia);
+
     return 0;
 }
