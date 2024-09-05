@@ -2,7 +2,7 @@
 
 #define FIBONACCI_HASTA
 
-int sumaFibonacci(int n){
+int FibonacciRecursivo(int n){
     if(n == 1){
         return 1;
     }
@@ -11,7 +11,7 @@ int sumaFibonacci(int n){
         return 0;
     }
 
-    return (sumaFibonacci(n-1) + sumaFibonacci(n-2));
+    return (FibonacciRecursivo(n-1) + FibonacciRecursivo(n-2));
 }
 
 int main(){
@@ -60,7 +60,7 @@ int main(){
         printf("%d> %d\n", i+2, siguiente);
     }
 
-    printf("Fibonacci en %d: %d.\n", fibonacciHasta, sumaFibonacci(fibonacciHasta));
+    printf("Fibonacci en %d: %d.\n", fibonacciHasta, FibonacciRecursivo(fibonacciHasta));
 
     return 0;
 }
