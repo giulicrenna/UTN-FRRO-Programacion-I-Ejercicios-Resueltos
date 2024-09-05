@@ -35,6 +35,10 @@ Escribe un programa que determine si un año es bisiesto o no utilizando `if`.
 ### Ejercicio 11: Sumar los primeros 10 números naturales usando un bucle for.
 Escribe un programa en C que sume los primeros 10 números naturales usando un bucle for.
 
+$$
+sum(k) = \frac{n(n+1)}{2}
+$$
+
 ### Ejercicio 12: Imprimir los números pares entre 1 y 20 usando un bucle while.
 Escribe un programa en C que imprima los números pares entre 1 y 20 usando un bucle while.
 
