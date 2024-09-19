@@ -7,7 +7,7 @@ Escribe un programa que determine si un número entero ingresado por el usuario 
 
 ### Ejercicio 2: Clasificación de Edad
 Solicita la edad del usuario y clasifica a la persona en una categoría usando `if`.
-
+_
 ### Ejercicio 3: Nota de Examen
 Solicita una nota de examen entre 0 y 100 y asigna una calificación según los siguientes rangos usando `if`.
 
