@@ -59,3 +59,17 @@ Dado un array tridimensional, escribir un programa que imprima la suma de todos 
 ### Ejercicio 15:  
 Escriba un programa que lea una cadena de caracteres y cuente cuántas vocales tiene.
 
+### Ejercicio 16:
+Leer una cadena de caracteres y verificar si es un palíndromo (sin usar funciones).
+
+### Ejercicio 17:
+Tome dos cadenas y determine si son anagramas (sin usar funciones).
+
+### Ejercicio 18:
+Dado un array de enteros, encuentre el número más frecuente.
+
+### Ejercicio 19:
+Leer una cadena de caracteres e invertir las palabras.
+
+### Ejercicio 20:
+Divida un array en sub-arrays de tamaño N.
