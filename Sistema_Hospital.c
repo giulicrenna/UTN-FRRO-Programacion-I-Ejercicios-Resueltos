@@ -33,8 +33,7 @@ void ingresarPaciente(int *numPacientes)
     scanf("%d", &idPacientes[*numPacientes]);
 
     // Limpiar el buffer de la consola.
-    while (getchar() != '\n')
-        ;
+    while (getchar() != '\n');
 
     printf("Ingrese el nombre: ");
     // Ingresamos la cadena de caracteres dentro del array de nombres
@@ -78,7 +77,28 @@ void mostrarPacientes(int numPacientes)
 }
 
 void modificarPaciente(int numPaciente, int id){
+    for(int i = 0; i < numPaciente; i++){
+        if(idPacientes[i] == id){
+            while (getchar() != '\n');
 
+            printf("Modificar nombre: ");
+            fgets(nombresPacientes[i], MAX_NAME_LEN, stdin);
+            nombresPacientes[i][strcspn(nombresPacientes[i], "\n")] = 0;
+
+            printf("Modificar edad: ");
+            scanf("%d", &edadesPacientes[i]);
+
+            while (getchar() != '\n');
+
+            printf("Modificar diagnostico: ");
+            fgets(diagnosticosPacientes[i], MAX_DIAG_LEN, stdin);
+            diagnosticosPacientes[i][strcspn(diagnosticosPacientes[i], "\n")] = 0;
+
+            return;
+        }
+    }
+
+    printf("No se encontro el ID %d.\n", id);
 
     return;
 }
@@ -109,7 +129,14 @@ int main()
             ingresarPaciente(&numPacientes);
             break;
         case 2:
-            /* code */
+            printf("Ingrese el ID a modificar: ");
+            
+            int idPaciente;
+
+            scanf("%d", &idPaciente);
+
+            modificarPaciente(numPacientes, idPaciente);
+
             break;
         case 3:
             /* code */
