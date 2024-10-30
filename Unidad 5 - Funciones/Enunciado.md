@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://www.radiouniversidad.com.ar/wp-content/uploads/2015/01/logo-utn1.jpg" width="10%">
+</div>
+
 # Universidad Tecnológica Nacional {align=center}
 ## Ejercitacion - Funciones en C {align=center}
 ### Giuliano Crenna {align=center}
