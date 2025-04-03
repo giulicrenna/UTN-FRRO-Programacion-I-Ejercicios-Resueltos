@@ -14,6 +14,7 @@ Algoritmo SumaYPromedio
 		suma <- suma + nota
 		contador <- contador + 1
 		
+		Escribir "Para parar teclee (N)"
 		Leer continuar
 	Hasta Que continuar = "N" O continuar = "n"
 	
